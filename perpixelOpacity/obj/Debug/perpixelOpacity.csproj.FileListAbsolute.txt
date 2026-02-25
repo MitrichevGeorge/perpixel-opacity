@@ -1,0 +1,10 @@
+C:\Users\Georg\source\repos\perpixelOpacity\perpixelOpacity\bin\Debug\perpixelOpacity.exe.config
+C:\Users\Georg\source\repos\perpixelOpacity\perpixelOpacity\bin\Debug\perpixelOpacity.exe
+C:\Users\Georg\source\repos\perpixelOpacity\perpixelOpacity\bin\Debug\perpixelOpacity.pdb
+C:\Users\Georg\source\repos\perpixelOpacity\perpixelOpacity\obj\Debug\perpixelOpacity.csproj.AssemblyReference.cache
+C:\Users\Georg\source\repos\perpixelOpacity\perpixelOpacity\obj\Debug\perpixelOpacity.Properties.Resources.resources
+C:\Users\Georg\source\repos\perpixelOpacity\perpixelOpacity\obj\Debug\perpixelOpacity.csproj.GenerateResource.cache
+C:\Users\Georg\source\repos\perpixelOpacity\perpixelOpacity\obj\Debug\perpixelOpacity.csproj.CoreCompileInputs.cache
+C:\Users\Georg\source\repos\perpixelOpacity\perpixelOpacity\obj\Debug\perpixelOpacity.exe
+C:\Users\Georg\source\repos\perpixelOpacity\perpixelOpacity\obj\Debug\perpixelOpacity.pdb
+C:\Users\Georg\source\repos\perpixelOpacity\perpixelOpacity\obj\Debug\perpixelOpacity.exe.config
