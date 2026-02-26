@@ -20,6 +20,8 @@ namespace perpixelOpacity
         private float pulse = 0f;
         private float speed, pspeed = 0f;
         private bool pulseUp = true;
+        private Bitmap bmp;
+        private SolidBrush[] brushes;
 
         private readonly Color[] googleColors = new Color[]
         {
@@ -36,6 +38,8 @@ namespace perpixelOpacity
             StartPosition = FormStartPosition.CenterScreen;
             Width = 400;
             Height = 400;
+            bmp = new Bitmap(Width, Height, PixelFormat.Format32bppArgb);
+            brushes = googleColors.Select(c => new SolidBrush(c)).ToArray();
         }
 
         protected override void OnShown(EventArgs e)
@@ -70,8 +74,6 @@ namespace perpixelOpacity
         }
         private void DrawFrame()
         {
-            Bitmap bmp = new Bitmap(Width, Height, PixelFormat.Format32bppArgb);
-
             using (Graphics g = Graphics.FromImage(bmp))
             {
                 g.SmoothingMode = SmoothingMode.AntiAlias;
@@ -91,16 +93,13 @@ namespace perpixelOpacity
                     float x = centerX + (float)Math.Cos(rad) * baseRadius;
                     float y = centerY + (float)Math.Sin(rad) * baseRadius;
 
-                    using (SolidBrush b = new SolidBrush(googleColors[i]))
-                    {
-                        g.FillEllipse(
-                            b,
-                            x - dotRadius,
-                            y - dotRadius,
-                            dotRadius * 2,
-                            dotRadius * 2
-                        );
-                    }
+                    g.FillEllipse(
+                        brushes[i],
+                        x - dotRadius,
+                        y - dotRadius,
+                        dotRadius * 2,
+                        dotRadius * 2
+                    );
                 }
             }
 
@@ -198,6 +197,14 @@ namespace perpixelOpacity
 
             [DllImport("gdi32.dll", SetLastError = true)]
             public static extern bool DeleteObject(IntPtr hObject);
+        }
+
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            animTimer?.Stop();
+            animTimer?.Dispose();
+            bmp?.Dispose();
+            base.OnFormClosed(e);
         }
     }
 }

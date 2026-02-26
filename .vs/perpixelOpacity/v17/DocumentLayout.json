@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{1D50807D-913D-4F49-9677-66A123B8B718}|perpixelOpacity\\perpixelOpacity.csproj|solutionrelative:perpixelopacity\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D50807D-913D-4F49-9677-66A123B8B718}|perpixelOpacity\\perpixelOpacity.csproj|c:\\users\\georg\\source\\repos\\perpixelopacity\\perpixelopacity\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D50807D-913D-4F49-9677-66A123B8B718}|perpixelOpacity\\perpixelOpacity.csproj|solutionrelative:perpixelopacity\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D50807D-913D-4F49-9677-66A123B8B718}|perpixelOpacity\\perpixelOpacity.csproj|c:\\users\\georg\\source\\repos\\perpixelopacity\\perpixelopacity\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1D50807D-913D-4F49-9677-66A123B8B718}|perpixelOpacity\\perpixelOpacity.csproj|solutionrelative:perpixelopacity\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1D50807D-913D-4F49-9677-66A123B8B718}|perpixelOpacity\\perpixelOpacity.csproj|C:\\Users\\Georg\\source\\repos\\perpixelOpacity\\perpixelOpacity\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D50807D-913D-4F49-9677-66A123B8B718}|perpixelOpacity\\perpixelOpacity.csproj|solutionrelative:perpixelOpacity\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +30,7 @@
               "RelativeToolTip": "perpixelOpacity\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T19:43:13.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T19:43:13.039Z"
             },
             {
               "$type": "Document",
@@ -45,22 +40,10 @@
               "RelativeDocumentMoniker": "perpixelOpacity\\Form1.cs",
               "ToolTip": "C:\\Users\\Georg\\source\\repos\\perpixelOpacity\\perpixelOpacity\\Form1.cs",
               "RelativeToolTip": "perpixelOpacity\\Form1.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T17:23:12.002Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\perpixelOpacity\\perpixelOpacity\\Form1.cs",
-              "RelativeDocumentMoniker": "perpixelOpacity\\Form1.cs",
-              "ToolTip": "C:\\Users\\Georg\\source\\repos\\perpixelOpacity\\perpixelOpacity\\Form1.cs [Design]",
-              "RelativeToolTip": "perpixelOpacity\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T17:22:17.892Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
